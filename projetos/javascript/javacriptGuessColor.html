@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <title>Assignment: Dating Web Site Assessment</title>
+      <meta name="author" content="Pedro Miranda">
+    </head>
+    <body onload="do_game()">
+      <script type="text/javascript">
+
+        var guess_input_text = "";
+        var guess_input_index = 12;
+        //Include a list of colors in an array
+        var colours = ["yellow","gold","blue","cyan","gray","green","magenta","orange","red","white","black","purple"];
+        var alphabetheticColours;
+        var arrayLength;
+
+        var target;
+        var targetIndex;
+
+        var finished = false;
+        var guesses = 0;
+
+        function do_game() {
+
+            alphabetheticColours = colours.sort("");
+            arrayLength = alphabetheticColours.length;
+
+            console.log(colours);
+            console.log(alphabetheticColours);
+            console.log(alphabetheticColours.length);
+
+            //Randomly select one of those colors in the array as the target
+            targetIndex = Math.floor(Math.random()*arrayLength);
+            target = alphabetheticColours[targetIndex];
+            console.log(target);
+            console.log("targetIndex = " + targetIndex);
+            console.log(typeof(target));
+
+            while (!finished) {
+                //Shows the array of colors and asks the player for their guess
+                guess_input_text = prompt("I am thinking of one of these colors: "+
+                                          "\n\n"+ alphabetheticColours.join(", ") +
+                                          ". What color am I thinking of?");
+
+                console.log(guess_input_text);
+                console.log(alphabetheticColours);
+
+                var i = 0;
+                while(i < alphabetheticColours.length){
+                  if(alphabetheticColours[i] == target){
+                    guess_input_index = alphabetheticColours.indexOf(guess_input_text);
+                  }
+                  i++;
+                }
+              guesses++;
+              console.log("guess_input_index = " + guess_input_index);
+              finished = check_guess();
+            }
+        }
+
+        function check_guess() {
+            if (guess_input_index == -1) {
+              //Displays a message such as ‘I don’t recognize that color!’
+              //If the text entered by the player is not in the array of colors,
+                alert("Sorry, I don't recognize your color.\n\n" +
+                      "Please try again.");
+                return false;
+            }
+
+           else if (guess_input_index > targetIndex) {
+              //Displays a message such as ‘Your input is alphabetically higher
+              //than mine!’ if that is true,
+                alert("Sorry, your guess is not correct!\n \n" +
+                      "Hint: your color is alphabetically higher than mine.\n\n"+
+                      "Please try again");
+                return false;
+            }
+          else if (guess_input_index < targetIndex) {
+              //Displays a message such as ‘Your input is alphabetically lower
+              //than mine!’ if that is true
+              alert("Sorry, your guess is not correct!\n \n" +
+                    "Hint: your color is alphabetically lower than mine.\n\n"+
+                    "Please try again");
+                return false;
+            }
+
+          /*
+          If the player’s input is the same as the target: changes the web
+          page background color to the target color and displays a message
+          which includes the total number of guesses such as ‘You are right!
+          You took 8 guesses!’ If the player’s input is the same as the target:
+          changes the web page background color to the target color and
+          displays a message which includes the total number of guesses such as
+          ‘You are right! You took 8 guesses!’
+          */
+          else{
+            document.body.style.backgroundColor = target;
+            alert("Congratulations! You have guessed the color " +
+                  ".\n\nIt took you " + guesses +
+                " guesses to finnish the game!\n\n" +
+                "You can see the colour in the background.");
+            //Stops if the player’s input is the same as the target
+            //finnish == true
+            return true;
+          }
+        }
+      </script>
+    </body>
+</html>
