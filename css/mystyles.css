@@ -39,6 +39,11 @@ height:100%;
     }
 }
 
+@media screen and (max-width: 750px) {
+    .paddingAdjust{
+        padding:20px;
+    }
+}
 
 .corousel-divs{
    background:white;
@@ -130,6 +135,19 @@ body {
     text-justify: inter-word;
 }
 
+.hand{
+     cursor: pointer; cursor: hand;
+}
+
+.animation {
+  border-radius: 50%;
+  -webkit-transition: -webkit-transform .8s ease-in-out;
+  transition: transform .8s ease-in-out;
+}
+.animation:hover {
+  -webkit-transform: rotate(360deg);
+  transform: rotate(360deg);
+}
 
 
 
