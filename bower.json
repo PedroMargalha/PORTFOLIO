@@ -1,16 +1,18 @@
 {
-  "name": "Website-conFusion",
+  "name": "PedroMiranda - Portfolio",
   "version": "1.0.0",
   "authors": [
     "PedroMargalha <pmargalha@gmail.com>"
   ],
-  "description": "Restaurant Website",
+  "description": "Portfolio",
   "main": "index.html",
   "moduleType": [],
   "keywords": [
-    "Restaurant",
-    "Fusion",
-    "conFusion"
+    "Portfolio",
+    "Me",
+    "Pedro",
+    "Margalha",
+    "Miranda"
   ],
   "license": "MIT",
   "homepage": "",
