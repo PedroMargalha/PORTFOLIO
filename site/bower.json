@@ -1,0 +1,30 @@
+{
+  "name": "PedroMiranda - Portfolio",
+  "version": "1.0.0",
+  "authors": [
+    "PedroMargalha <pmargalha@gmail.com>"
+  ],
+  "description": "Portfolio",
+  "main": "index.html",
+  "moduleType": [],
+  "keywords": [
+    "Portfolio",
+    "Me",
+    "Pedro",
+    "Margalha",
+    "Miranda"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.5",
+    "font-awesome": "~4.4.0"
+  }
+}
