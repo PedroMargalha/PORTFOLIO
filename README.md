@@ -8,7 +8,6 @@ This portfolio was built based on a template created by
 
                                                                                     
 from 
-                                                                                   
 <b>The Honk Kong University of Science and Technology</b>
                                                                                    
 http://www.ust.hk/
