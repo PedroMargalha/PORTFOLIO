@@ -139,5 +139,23 @@ body {
      cursor: pointer; cursor: hand;
 }
 
+.center{
+	  margin-left: auto;
+    margin-right: auto;
+}
 
+.bwImg{
+	-webkit-filter: grayscale(100%); 
+-moz-filter: grayscale(100%); 
+-ms-filter: grayscale(100%); 
+-o-filter: grayscale(100%); 
+filter: grayscale(100%); 
+}
 
+.frameborder{
+	border:1px solid lightgrey;
+}
+
+.greyBackground{
+	background-color: #337ab7;
+}
