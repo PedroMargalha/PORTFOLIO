@@ -30,6 +30,9 @@
              $("#JavascriptGamesClick").click(function () {
                 $("#JavascriptGamesModal").modal('show');
             });
+            $("#BootstrapRestaurantClick").click(function () {
+                $("#BootstrapRestaurantModal").modal('show');
+            });
         });
 
 
