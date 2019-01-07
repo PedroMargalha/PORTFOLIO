@@ -1,21 +1,20 @@
 # PORTFOLIO
 My personal portfolio
-                                                                                    
+The portfolio is available online at: 
 
-This portfolio was built based on a template created by: 
-                                                                                   
-<b>Jogesh K. Muppala</b>
+https://pedromargalha.github.io/portfolio/                                                                              
+==============================================================
 
-                                                                                    
-from 
-                                                                                   
-<b>The Honk Kong University of Science and Technology</b>
-                                                                                   
-http://www.ust.hk/
+This portfolio was built based on a template created by:         
+<b>Jogesh K. Muppala</b>                            
+                  
+<b>from The Honk Kong University of Science and Technology</b>        
 
-                                                                                    
-in
-                                                                                    
-<b>Coursera Course -> Front-end Web UI Frameworks Overview: Bootstrap</b>
-                                                                                   
+http://www.ust.hk/   
+
+                                  
+<b>in Coursera Course -> Front-end Web UI Frameworks Overview: Bootstrap</b>                         
+
 https://www.coursera.org/learn/web-frameworks/home/welcome
+
+==============================================================
