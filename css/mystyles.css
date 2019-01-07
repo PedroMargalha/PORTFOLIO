@@ -11,17 +11,18 @@
 .row-footer {
   margin: 0px auto;
   padding: 20px 0px;
-  background-color:#dddddd ;
+  background-color:black ;
+  color:white;
 }
 .jumbotron {
-  margin: 0px auto;
-  padding: 70px 30px;
-  background: #5c6bc0 ;
-  color: floralwhite;
+  color: black;
+  background-image:url("../img/jumbotron-desk.jpg");
+  -webkit-background-size: cover;
+  background-size: cover;
 }
 /*CAROUSEL*/
 .carousel {
-  background: #1a237e;
+  background: grey;
 }
 .carousel .item {
   height: 300px;
@@ -46,11 +47,11 @@ height:100%;
 }
 
 .corousel-divs{
-   background:white;
+  background:white;
   color:black;
   font-size: 16px;
   border-radius: 10px;
-  border: 4px solid #1a237e;
+  border: 4px solid grey;
 
 }
 
@@ -65,43 +66,43 @@ font-size: 18px;
 }
 /*NAVBAR*/
 .navbar-inverse {
-  background: #303f9f;
-  color: #ffffff;
+  background: black;
+  color: black;
 }
 .navbar-inverse .navbar-nav > .active > a {
-  background: #1a237e;
-  color: #ffffff;
+  background: black;
+  color: black;
 }
 .navbar-inverse .navbar-nav > .active > a:hover {
-  background: #1a237e;
-  color: #ffffff;
+  background: black;
+  color: grey;
 }
 .navbar-inverse .navbar-nav > .active > a:focus {
-  background: #1a237e;
-  color: #ffffff;
+  background: black;
+  color: grey;
 }
 .navbar-inverse .navbar-nav > .open > a {
-  background: #1a237e;
-  color: #ffffff;
+  background: black;
+  color: white;
 }
 .navbar-inverse .navbar-nav > .open > a:hover {
-  background: #1a237e;
-  color: #ffffff;
+  background: black;
+  color: grey;
 }
 .navbar-inverse .navbar-nav > .open > a:focus {
-  background: #1a237e;
-  color: #ffffff;
+  background: black;
+  color: grey;
 }
 .navbar-inverse .navbar-nav .open .dropdown-menu > li > a {
-  background-color: #303f9f;
-  color: #eeeeee;
+  background: black;
+  color: grey;
 }
 .navbar-inverse .navbar-nav .open .dropdown-menu > li > a:hover {
-  color: #000000;
+  color: white;
 }
 .navbar-inverse .navbar-nav .open .dropdown-menu {
-  background-color: #303f9f;
-  color: #eeeeee;
+  background: black;
+  color: white;
 }
 address {
   color: #0f0f0f;
@@ -156,6 +157,37 @@ filter: grayscale(100%);
 	border:1px solid lightgrey;
 }
 
-.greyBackground{
-	background-color: #337ab7;
+.nav-stacked > li {
+  color: grey;
+}
+
+.nav-stacked > li > a:hover{
+  color: black;
+}
+
+.nav-pills > li {
+  color: grey;
+}
+
+.nav-pills > li > a:hover{
+  color: black;
+}
+
+.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
+  color: #fff;
+  background-color: grey;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+.btn-primary{
+  background: black;
+}
+
+.label-danger{
+  background: white;
+  color: black;
 }
