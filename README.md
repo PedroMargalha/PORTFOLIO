@@ -2,7 +2,7 @@
 My personal portfolio
 The portfolio is available online at: 
 
-https://pedromargalha.github.io/portfolio/                                                                          ==============================================================
+https://pedromargalha.github.io/portfolio/                                                                          
 
 This portfolio was built based on a template created by:         
 <b>Jogesh K. Muppala</b>                            
